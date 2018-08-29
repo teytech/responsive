@@ -1,0 +1,63 @@
+.box i{
+    color: royalblue;
+}
+
+#articleDerM img{
+    height: auto;
+    width: 100%;
+}
+
+#articleDerM{
+    width: 600px;
+}
+
+#articleIzqM{
+    padding: 3px;
+    width: 300px;
+    height: auto;
+}
+#articleIzqM p{
+    font-family: 'Kanit', sans-serif;
+    padding: 3px;
+    font-size: 18px;
+    color: #959393;
+}
+
+#articleIzqM h1{
+    font-family: 'Kanit', sans-serif;
+    padding: 3px;
+    font-size: 24px;
+}
+
+#articleIzqM h2{
+    font-family: 'Kanit', sans-serif;
+    padding: 3px;
+    font-size: 20px;
+    color: #959393;
+}
+
+
+
+/* 
+  =====================================
+  CSS for <iframe> embedded Google Map
+  ===================================== 
+*/
+.mapWrapper {
+    position: relative;
+    /* 
+    Do math with the height of your iframe divided by the width, then converted to percent
+    In this example the height is 400 and the width is 600
+    400 / 600 = .66666667 
+    which is 66.6666667% */
+    padding-bottom: 66.6666667%; 
+    height: 508px;
+}
+
+.mapWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

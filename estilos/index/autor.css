@@ -1,0 +1,62 @@
+.box i{
+    color: royalblue;
+}
+
+#articleDer1{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    position:relative; 
+    overflow:hidden;
+    font-family: 'verdana';
+    width: 200px;
+}
+
+#articleIzq1{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    position:relative; 
+    overflow:hidden;
+    font-family: 'verdana';
+    width: 400px;
+}
+
+#articleDer2{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    position:relative; 
+    overflow:hidden;
+    font-family: 'verdana';
+    width: 255;
+}
+
+#articleIzq1 div{
+    text-align: center;
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+    font-family: 'verdana';
+}
+
+
+#articleDe1 div{
+    text-align: center;
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+    font-family: 'verdana';
+}
+
+#articleDer2 div{
+    text-align: center;
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+    font-family: 'verdana';
+}
+

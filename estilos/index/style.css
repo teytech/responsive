@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+#blog i{
+    font-size: 80px;
+}
+ 
+#blog .box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ 
+#blog article{
+    margin: 15px;
+    display: block;
+}
+
+.infoBox{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #fbfbfb;
+    border: 1px solid #efefef;
+    margin: 0 0 20px;
+    padding: 25px;
+    width: 50%;
+    background: transparent;
+    margin: auto;
+}
+
+

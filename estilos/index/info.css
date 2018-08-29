@@ -1,0 +1,54 @@
+.box i{
+    color: royalblue;
+}
+
+#articleDerI img{
+    height: auto;
+    width: 100%;
+}
+
+#articleDerI{
+    width: 600px;
+}
+
+#articleIzqI{
+    padding: 3px;
+    width: 300px;
+    height: auto;
+}
+#articleIzqI p{
+    font-family: 'Kanit', sans-serif;
+    padding: 3px;
+    font-size: 18px;
+    color: #959393;
+}
+
+#articleIzqI h1{
+    font-family: 'Kanit', sans-serif;
+    padding: 3px;
+    font-size: 24px;
+}
+
+#articleIzqI h2{
+    font-family: 'Kanit', sans-serif;
+    padding: 3px;
+    font-size: 20px;
+    color: #959393;
+}
+
+@media (max-width:500px) {
+    
+    #articleDer h4, #articleIzq h4{
+     position:absolute; 
+     left:0px;
+     transform:translatex(0%);
+    }
+
+
+    #articleCenter1 h4, #articleCenter2 h4{
+      position:absolute; 
+      left:0px;
+      transform:translatey(0%);
+    }
+
+}
